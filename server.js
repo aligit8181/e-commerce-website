@@ -40,10 +40,3 @@ initDatabase()
 
 // Export for Vercel
 module.exports = app;
-
-// For local development
-if (require.main === module) {
-  app.listen(PORT, () => {
-    console.log(`🚀 E-commerce server running on http://localhost:${PORT}`);
-  });
-}
